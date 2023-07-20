@@ -1,0 +1,184 @@
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
+
+
+/* topNav */
+nav {display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 20px 100px;}
+    /* logo */
+.logo {display: flex; flex-direction: row; align-items: center;}
+.logo img, .logo label {display: block;}
+.logo img {height: 35px;}
+.logo label {font-size: 35px; font-weight: bolder; margin-left: 15px;}
+.logo label::before {content: 'G'; color: rgba(229, 84, 115, 1);}
+    /* links */
+.links a {color: black; text-decoration: none; font-weight: bold; margin-left: 15px; padding: 7px 13px;}
+.links .follow {background-color: rgba(128, 128, 128, 0.342); border-radius: 5px;}
+.links .follow i {margin-left: 7px;}
+
+
+/* playLikeTheGOAT */
+.playLikeTheGOAT 
+    {
+        display: flex; flex-direction: column; justify-content: center; height: 50vh; padding: 20px 100px;
+        background-image: url('2_headerBg1.png'), url('2_headerBg2.png');
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: scroll, scroll;
+        background-position: left top, right top;
+        background-size: 50%, contain;
+        background-position-x: 0, 85%;
+    }
+.playLikeTheGOAT span {display: block;}
+.playLikeTheGOAT p, .playLikeTheGOAT div {margin-top: 15px;}
+span.plg {font-weight: bolder; font-size: 20px;}
+span.goat {font-size: 40px; font-weight: bolder; color: rgb(252, 42, 168);}
+.playLikeTheGOAT p > span {margin-top: 7px; font-size: 12px;}
+.playLikeTheGOAT button {margin-right: 10px; padding: 7px 15px; color: white; font-weight: bolder; border: none; border-radius: 20px; cursor: pointer;}
+
+
+/* weAreGamer */
+.weAreGamer 
+{
+    display: flex; flex-direction: column; justify-content: center; align-items: flex-end; padding: 40px 100px; margin-top: 50px; text-align: right;
+    background-image: url('3_weAreGamerBg.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: left center;
+    background-position-x: 20%;
+    background-size: contain;
+}
+.weAreGamer h1 {color: rgb(186, 60, 186);}
+.weAreGamer .aboutCompany {color: gray; margin-top: 15px;}
+.weAreGamer button {margin-top: 15px; padding: 7px 15px; background-color: rgba(249, 72, 178, 1); color: white; font-weight: bolder; border: none; border-radius: 20px; cursor: pointer;}
+p.purpose {margin-top: 15px;}
+.weAreGamer span {font-weight: bolder; font-size: larger;}
+
+
+/* videoThumbnail */
+.videoThumbnail {display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 100px;}
+.videoThumbnail h1::after {content: ' Funny Videos'; color: rgb(189, 63, 189);}
+.videoThumbnail p {margin-top: 10px; color: gray;}
+.videoThumbnail .img {display: flex; flex-direction: row; justify-content: center; align-items: center; margin-top: 30px;}
+.videoThumbnail figure {margin-left: 20px;}
+.videoThumbnail img {height: 300px; margin-bottom: 10px;}
+
+
+/* atAGlance1 */
+.atAGlance1 
+{
+    padding: 20px 30px; text-align: right; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; overflow: auto; height: 50vh; margin-top: 100px; font-size: larger;
+    background-image: url('5_atAGlance2.png'), url('5_atAGlance.png');
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll;
+    background-position: right bottom, right top;
+    background-position-x: 60%, 75%;
+    background-size: 150px 200px, 350px 400px;
+}
+.atAGlance1 h1, .atAGlance1 p {width: 35%;}
+.atAGlance1 h1 {line-height: 40px;}
+.atAGlance1 h1>span {color: rgb(202, 55, 202);}
+.atAGlance1 p {color: gray; margin-top: 15px; line-height: 20px; font-size: 12px;}
+
+
+/* atAGlance2 */
+.atAGlance2 
+{
+    padding: 20px 30px; text-align: left; display: flex; flex-direction: column; justify-content: center; align-items: flex-end; overflow: auto; height: 50vh; margin-top: 100px; font-size: larger;
+    background-image: url('6_atAglance2.png'), url('6_atAGlance.png');
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, scroll;
+    background-position: right bottom, right top;
+    background-position-x: 25%, 40%;
+    background-size: 150px 200px, 350px 400px;
+}
+.atAGlance2 h1, .atAGlance2 p {width: 35%;}
+.atAGlance2 h1 {line-height: 40px;}
+.atAGlance2 h1>span {color: rgb(202, 55, 202);}
+.atAGlance2 p {color: gray; margin-top: 15px; line-height: 20px; font-size: 12px;}
+
+
+/* careers */
+.careers
+{
+    display: flex; flex-direction: column; justify-content: center; align-items: flex-start; margin-top: 100px; padding: 50px 200px;
+    background-color: rgba(249, 72, 178, 1);;
+    background-image: url('2_headerBg1.png'),url('7-careersBg.png');
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: scroll, scroll;
+    background-position: left top, right top;
+    background-size: contain;
+    
+}
+.careers h1 {color: white;}
+.careers > p {color: rgb(235, 218, 218); margin-top: 15px;}
+.careers > div {margin-top: 25px; width: 35%;}
+.careerPositions > span {display: block; width: fit-content; color: white;}
+.careerPositions {display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin-top: 15px;}
+.careers button {margin-top: 15px; padding: 7px 15px; background-color: rgb(255, 255, 255); color: rgba(249, 72, 178, 1);; font-weight: bolder; border: none; border-radius: 20px; cursor: pointer;}
+
+
+/* gameType */
+.gameType {display: flex; flex-direction: row; justify-content: center; align-items: center; flex-wrap: wrap; margin-top: 100px; padding: 20px 30px;}
+.gameType a {display: flex; flex-direction: row; align-items: center; margin: 10px; color: black; text-decoration: none; padding: 7px 13px; border-radius: 50px; border: 2px solid white;}
+.gameType a.active {border: 2px solid rgba(249, 72, 178, 1);;}
+.gameType a img, .gameType a span {display: block; margin: 0 10px;}
+.gameType a:hover {border: 2px solid rgba(249, 72, 178, 1); transition: 1s;}
+
+
+/* footer */
+footer {display: flex; flex-direction: column; justify-content: center; align-items: center; background-color: rgb(4, 10, 53); padding: 50px 0; margin-top: 100px;}
+footer h1 {text-align: center; display: flex; justify-content: center; align-items: center; color: rgba(249, 72, 178, 1);;}
+footer img, footer span {display: block;}
+footer img {height: 35px;}
+footer h1::after {content: 'amer'; color: white;}
+footer p {margin-top: 30px;}
+footer a {text-decoration: none; margin-left: 15px; color: white; font-size: 14px;}
+footer .tOc a {color: gray; font-size: smaller;}
+footer .copyright {font-size: 10px; color: gray; margin-top: 15px;}
+
+
+
+/* mobile view */
+@media (max-width: 600px)
+
+{
+    /* topNav */
+    nav {flex-direction: column;}
+    .links {display: flex; flex-direction: column; justify-content: center; align-items: center;}
+    .links a {display: block; margin: 20px 0 0 0;}
+
+    /* playLikeTheGOAT */
+    .playLikeTheGOAT {height: 90vh;}
+    .playLikeTheGOAT section {margin-top:500px; font-size: x-large;}
+    
+    /* weAreGamer */
+    .weAreGamer br {display: none;}
+    .weAreGamer section {position: relative; top: 250px; text-align: center;}
+    
+    /* videoThumbnail */
+    .videoThumbnail {margin-top: 300px;}
+    .videoThumbnail .img {flex-direction: column;}
+    .videoThumbnail .img figure {margin-bottom: 50px;}
+    .videoThumbnail figcaption {text-align: center;}
+
+    /* atAGlance1 */
+    .atAGlance1 br {display: none;}
+    .atAGlance1 {width: 100%; height: 150vh; background-position-y: 350px; margin-top: 0;}
+    .atAGlance1 h1, .atAGlance1 p {text-align: center; width: 100%; position: relative; bottom: 350px;}
+
+    /* atAGlance2 */
+    .atAGlance2 {height: 150vh; margin: 0;}
+    .atAGlance2 h1, .atAGlance2 p {position: relative; bottom: 300px; width: 100%; text-align: center;}
+    .atAGlance2 {background-position-y: 450px;}
+
+    /* careers */
+    .careers br{display: none;}
+    .careers {margin-top: 250px; background-image: url(); padding: 20px 20px;}
+    .careers h1, .careers p {width: 100%; text-align: left;}
+    .careers div {width: 100%; margin-bottom: 20px;}
+
+    /* gameType */
+    .gameType {font-size: smaller;}
+    .gameType a {padding: 5px; margin: 5px;}
+
+    /* footer */
+    footer a, footer{font-size: xx-small;}
+}
