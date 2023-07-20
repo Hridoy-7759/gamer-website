@@ -27,7 +27,7 @@ nav {display: flex; flex-direction: row; justify-content: space-between; align-i
         background-position-x: 0, 85%;
     }
 .playLikeTheGOAT span {display: block;}
-.playLikeTheGOAT p, .playLikeTheGOAT div {margin-top: 15px;}
+.playLikeTheGOAT p , .playLikeTheGOAT div {margin-top: 15px; }
 span.plg {font-weight: bolder; font-size: 20px;}
 span.goat {font-size: 40px; font-weight: bolder; color: rgb(252, 42, 168);}
 .playLikeTheGOAT p > span {margin-top: 7px; font-size: 12px;}
